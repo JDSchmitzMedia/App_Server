@@ -1,3 +1,21 @@
 {
-	"type": "UserCollection"
+	"type": "UserCollection",
+	"properties": {
+		"pdsToken": {
+			"name": "pdsToken",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "pdsToken",
+			"order": 0
+		},
+		"dropboxToken": {
+			"name": "dropboxToken",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "dropboxToken",
+			"order": 1
+		}
+	}
 }

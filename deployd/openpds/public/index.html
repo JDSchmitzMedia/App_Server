@@ -22,6 +22,7 @@
 
     <!-- d3.js -->
   <script src="http://mbostock.github.com/d3/d3.js?2.5.0"></script>
+  <script src="dpd.js"></script>
   
   <script>   
 
@@ -43,6 +44,10 @@
                     }
              })
  }
+dpd.users.get(function (result, err) {
+  if(err) return console.log(err);
+  console.log(result);
+});
 
   </script>
 
@@ -56,6 +61,7 @@
     <header data-role="header">
      <h1>Reality Analysis HTML 5</h1>
     </header>
+	Hayley's webforms
 
       <div data-role="navbar" id="navbar">
       <ul>
@@ -118,7 +124,7 @@
 
     
   </div><!-- contentSettings -->
-<a href="http://192.168.110.204:8005/sharing/edit/">Sharing Settings</a>
+<a href="http://192.168.110.214:8005/sharing/edit/">Sharing Settings</a>
 </div> <!-- settingsPage -->
 
 
