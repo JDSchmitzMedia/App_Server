@@ -1,0 +1,7 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', '-f', 'deployd' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /mas/u/jschmitz/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc

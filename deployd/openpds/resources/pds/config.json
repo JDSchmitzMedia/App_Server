@@ -1,12 +1,12 @@
 {
 	"type": "Collection",
 	"properties": {
-		"loca5ion": {
-			"name": "loca5ion",
+		"location": {
+			"name": "location",
 			"type": "string",
 			"typeLabel": "string",
 			"required": false,
-			"id": "loca5ion",
+			"id": "location",
 			"order": 0
 		}
 	}

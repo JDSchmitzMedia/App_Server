@@ -1,0 +1,39 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'dpd-s3' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /mas/u/jschmitz/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /mas/u/jschmitz/MITtrustframeworkv03/App_Server/deployd/openpds/node_modules/deployd/package.json
+verbose cache add [ 'dpd-s3', null ]
+silly cache add: name, spec, args [ undefined, 'dpd-s3', [ 'dpd-s3', null ] ]
+verbose parsed url { pathname: 'dpd-s3', path: 'dpd-s3', href: 'dpd-s3' }
+verbose addNamed [ 'dpd-s3', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'dpd-s3', '', false ]
+verbose raw, before any munging dpd-s3
+verbose url resolving [ 'https://registry.npmjs.org/', './dpd-s3' ]
+verbose url resolved https://registry.npmjs.org/dpd-s3
+http GET https://registry.npmjs.org/dpd-s3
+http 404 https://registry.npmjs.org/dpd-s3
+silly get cb [ 404,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     date: 'Sun, 18 Nov 2012 01:05:29 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '52',
+silly get cb     'cache-control': 'must-revalidate' } ]
+ERR! 404 'dpd-s3' is not in the npm registry.
+ERR! 404 You should bug the author to publish it
+ERR! 404 Note that you can also install from a
+ERR! 404 tarball, folder, or http url, or git url.
+ERR! 
+ERR! System Linux 3.2.0-23-generic
+ERR! command "node" "/usr/bin/npm" "install" "dpd-s3"
+ERR! cwd /mas/u/jschmitz/MITtrustframeworkv03/App_Server/deployd/openpds
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code E404
+ERR! message 404 Not Found: dpd-s3
+ERR! errno {}
+verbose exit [ 1, true ]

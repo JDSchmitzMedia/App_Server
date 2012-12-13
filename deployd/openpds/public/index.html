@@ -61,11 +61,10 @@ dpd.users.get(function (result, err) {
     <header data-role="header">
      <h1>Reality Analysis HTML 5</h1>
     </header>
-	Hayley's webforms
 
       <div data-role="navbar" id="navbar">
       <ul>
-        <li><a href="" data-icon="" data-transition="fade" class="ui-btn-active ui-state-persist">Settings</a></li>
+        <li><a href="index.html" data-icon="" data-transition="fade" class="ui-btn-active ui-state-persist">Settings</a></li>
         <li><a href="visualization.html" rel="external" data-icon="" data-transition="fade">Social Health</a></li>
         <li><a href="map.html" rel="external" data-icon="" data-transition="fade">Social Map</a></li>
       </ul>
@@ -74,57 +73,10 @@ dpd.users.get(function (result, err) {
 
   <div data-role="content" id="contentSettings" name="contentSettings"> 
 
-
+<iframe src='http://celldata.media.mit.edu:8033/sharing/edit/ .container form' height="800px" width="100%"></iframe>
   
-    <div data-role="fieldcontain">
-        <fieldset data-role="controlgroup" data-type="horizontal">
-          <legend>Permission</legend>
-          <legend>Choose a pet:</legend>
-              <input type="radio" name="permission" id="Off" value="Off" checked="checked" />
-              <label for="Off">Off</label>
-
-              <input type="radio" name="permission" id="Gold" value="Gold"  />
-              <label for="Gold">Gold</label>
-
-              <input type="radio" name="permission" id="Silver" value="Silver"  />
-              <label for="Silver">Silver</label>
-
-              <input type="radio" name="permission" id="Bronze" value="Bronze"  />
-              <label for="Bronze">Bronze</label>
-        </fieldset>
-    </div>
-
-    <div id="permissionExplanation">
-      <p> permission dialogue that explains each permission option. </p>
-    </div>
-
-    <div data-role="fieldcontain">
-    <fieldset data-role="controlgroup" data-type="horizontal">
-     <legend>Sensors:</legend>
-     <input type="checkbox" name="Sensors" id="Activity" class="custom" checked="true" />
-     <label for="Activity">Activity</label>
-     <input type="checkbox" name="Sensors" id="Focus" class="custom" checked="true" />
-     <label for="Focus">Focus</label>
-     <input type="checkbox" name="Sensors" id="Social" class="custom" checked="true" />
-     <label for="Social">Social</label>
-    </fieldset>
-    </div>
-
-      <div data-role="fieldcontain">
-      <fieldset data-role="controlgroup" data-type="horizontal">
-       <legend>Set Sharing:</legend>
-       <input type="checkbox" name="Sharing" id="Sister" class="custom" checked="true"/>
-      <label for="Sister">Sister</label>
-      <input type="checkbox" name="Sharing" id="Family" class="custom" checked="true" />
-      <label for="Family">Family</label>
-      <input type="checkbox" name="Sharing" id="Everyone" class="custom" checked="true" />
-      <label for="Everyone">Everyone</label>
-    </fieldset>
-    </div>
-
     
   </div><!-- contentSettings -->
-<a href="http://192.168.110.214:8005/sharing/edit/">Sharing Settings</a>
 </div> <!-- settingsPage -->
 
 

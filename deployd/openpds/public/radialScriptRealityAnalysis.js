@@ -4,7 +4,7 @@
 //var btoken = window.location.search.split( 'bearer_token=')[1].split('&')[0]; 
 //var endpoint = "http://dcaps-staging.media.mit.edu:8080/api/reality_analysis_service/get_reality_analysis_data?document_key=radialData&bearer_token=8e2f9e3129";
 //var endpoint = "http://192.168.110.204:800/api/personal_data/realityanalysis/?format=json&token=skdfjsdl";
-var endpoint = "http://192.168.110.204:8005/api/personal_data/realityanalysis/";
+var endpoint = "http://celldata.media.mit.edu:8033/api/personal_data/answerlist/";
   d3.json(endpoint, function(json){
   console.log(json);
 
