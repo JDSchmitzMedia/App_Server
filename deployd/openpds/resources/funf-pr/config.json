@@ -1,5 +1,5 @@
 {
-	"type": "AnswerCollection",
+	"type": "ProtectedResource",
 	"properties": {
 		"key": {
 			"name": "key",
@@ -11,19 +11,11 @@
 		},
 		"value": {
 			"name": "value",
-			"type": "number",
-			"typeLabel": "number",
+			"type": "object",
+			"typeLabel": "object",
 			"required": true,
 			"id": "value",
 			"order": 1
-		},
-		"issharing": {
-			"name": "issharing",
-			"type": "boolean",
-			"typeLabel": "boolean",
-			"required": true,
-			"id": "issharing",
-			"order": 2
 		}
 	}
 }
