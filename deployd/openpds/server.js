@@ -1,5 +1,5 @@
 var deployd = require('deployd')
-  , options = {port: 3003}
+  , options = {port: 3004}
   , server = deployd(options)
   , my_http = require("http");  
 
