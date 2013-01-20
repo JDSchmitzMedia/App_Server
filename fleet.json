@@ -1,7 +1,7 @@
 {
   "remote": {
     "default": {
-      "hub": "127.0.0.1:7000",
+      "hub": "127.0.0.1:7040",
       "secret": "beepboop"
     }
   }
